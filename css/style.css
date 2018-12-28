@@ -211,6 +211,12 @@ header .intro-text {
 	color: rgba(255,255,255,.7);
 	background: #1f386e;
 }
+#get-touch a {
+	color: rgba(255,255,255,.65);
+}
+#get-touch a:hover {
+	color: #e52f3c;
+}
 #get-touch h3 {
 	font-size: 24px;
 	font-weight: 400;
@@ -436,7 +442,7 @@ header .intro-text {
 	color: rgba(255,255,255,.65);
 }
 #contact a:hover {
-	color: #ce2a36;
+	color: #e52f3c;
 }
 #contact .section-title {
 	margin-bottom: 40px;

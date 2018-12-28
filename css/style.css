@@ -299,6 +299,7 @@ header .intro-text {
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
+	text-align: center;
 }
 #services h3 {
 	font-weight: 700;
@@ -358,42 +359,59 @@ header .intro-text {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
-	padding: 100px 0;
+/* Testimonial Section */
+#testimonial {
+    padding: 100px 0;
 }
-#testimonials i {
-	color: #e6e6e6;
-	font-size: 32px;
-	margin-bottom: 20px;
+.testimonial{
+    position: relative;
 }
-.testimonial {
-	position: relative;
-	padding: 20px;
+.main_testimonial{
+    position: relative;
+    z-index: 1;
 }
-.testimonial-image {
-	float: left;
-	margin-right: 15px;
+
+.main_testimonial .testimonial_item h6{
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
-.testimonial-image, .testimonial-image img {
-	display: block;
-	width: 64px;
-	height: 64px;
+
+.main_testimonial .testimonial_item p{
+    font-size:14px;
+    width:80%;
+    margin: 20px auto;
 }
-.testimonial-content {
-	position: relative;
-	overflow: hidden;
+
+.main_testimonial .carousel-control{
+    width:45px;
+    height: 45px;
+    line-height:  42px;
+    text-align: center;
+    color:#999;
+    cursor: pointer;
+    position: relative;
+    background-image: none;
+    display: inline-block;
+    font-size:14px;
 }
-.testimonial-content p {
-	margin-bottom: 0;
-	font-size: 14px;
-	font-style: italic;
+.main_testimonial .carousel-control.left,
+.main_testimonial .carousel-control.right{
+    box-shadow:0px 0px 0px;
+    opacity: 1;
 }
-.testimonial-meta {
-	margin-top: 10px;
-	font-size: 13px;
-	font-weight: bold;
-	text-transform: uppercase;
+.main_testimonial .slash{
+    font-size: 2rem;
+    color: #ddd;
+    height: 45px;
+    bottom: -5px;
+    display: inline-block;
+    position: relative;
+}
+
+.test_authour img{
+    margin: 0px auto;
 }
 /* Partner Section */
 #partner {
@@ -567,7 +585,7 @@ color: #777;
     width:100%;
 }
 .project-description {
-    padding-right:20px;
+    padding:0 20px;
 }
 .project-description p {
     padding-left:0;
@@ -632,14 +650,14 @@ color: #777;
     top:-100px;
     left:50%;
     margin:0 auto;
-    margin-left:-41px;
-    width:80px;
-    height:80px;
-    font-size:40px;
+    margin-left:-68px;
     color:#fff;
     text-decoration:none;
     line-height: 70px;
     text-align: center;
+	font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 .thumbnail:hover .more {
     top:40%;

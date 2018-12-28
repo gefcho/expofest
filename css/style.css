@@ -601,7 +601,7 @@ color: #777;
 .project-info div {
     margin-bottom:5px;
 }
-.close {
+.project-title .close {
     float: right;
     width: 40px;
     height: 40px;

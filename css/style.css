@@ -879,9 +879,6 @@ color: #777;
 	.intro h1 {
 		font-size: 36px;
 	}
-}
-
-@media (min-width: 768px) {
 	#blog .blog-grid {
 		height: 250px;
 	}

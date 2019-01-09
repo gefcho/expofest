@@ -58,7 +58,7 @@
 				<li><a href="#partner" class="page-scroll">Наши партнеры</a></li>
 			</ul>
 		</li>
-        <li><a href="" class="page-scroll">Медиа</a></li>
+        <li><a href="#blog" class="page-scroll">Медиа</a></li>
         <li><a href="#contact" class="page-scroll">Контакты</a></li>
       </ul>
     </div>
@@ -351,12 +351,12 @@
 					</div>
 					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-						<span class="fa fa-long-arrow-left" aria-hidden="true"></span>
+						<span class="fa fa-angle-left" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
 					<span class="slash">/</span>
 					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						<span class="fa fa-long-arrow-right" aria-hidden="true"></span>
+						<span class="fa fa-angle-right" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
@@ -366,29 +366,136 @@
 </div>
 <!-- Partner Section -->
 <div id="partner">
-  <div class="container">
-    <div class="section-title">
-      <h2>Наши партнеры</h2>
-	  <h4>Нам доверяют эти популярные компании</h4>
-    </div>
-	<div class="row">
-		<div class="col-md-2 col-sm-3 col-xs-6 col-sm-offset-0 col-md-offset-1">
-			<div class="partner-logo"><img src="img/logo/logo1.png" alt="" class="img-responsive"></div>
+	<div class="container">
+		<div class="section-title">
+			<h2>Наши партнеры</h2>
+			<h4>Нам доверяют эти популярные компании</h4>
 		</div>
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="partner-logo"><img src="img/logo/logo2.png" alt="" class="img-responsive"></div>
-		</div>
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="partner-logo"><img src="img/logo/logo3.png" alt="" class="img-responsive"></div>
-		</div>
-		<div class="col-md-2 col-sm-3 col-xs-6">
-			<div class="partner-logo"><img src="img/logo/logo4.png" alt="" class="img-responsive"></div>
-		</div>
-		<div class="col-md-2 col-sm-12 col-xs-12">
-			<div class="partner-logo"><img src="img/logo/logo5.png" alt="" class="img-responsive"></div>
+		<div class="row">
+			<div class="col-md-2 col-sm-3 col-xs-6 col-sm-offset-0 col-md-offset-1">
+				<div class="partner-logo"><img src="img/logo/logo1.png" alt="" class="img-responsive"></div>
+			</div>
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="partner-logo"><img src="img/logo/logo2.png" alt="" class="img-responsive"></div>
+			</div>
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="partner-logo"><img src="img/logo/logo3.png" alt="" class="img-responsive"></div>
+			</div>
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="partner-logo"><img src="img/logo/logo4.png" alt="" class="img-responsive"></div>
+			</div>
+			<div class="col-md-2 col-sm-12 col-xs-12">
+				<div class="partner-logo"><img src="img/logo/logo5.png" alt="" class="img-responsive"></div>
+			</div>
 		</div>
 	</div>
-  </div>
+</div>
+<!-- Blog Section -->
+<div id="blog">
+	<div class="container">
+		<div class="section-title">
+			<h2>Наш блог</h2>
+			<h4>Интересные статьи, а также новости в выстовочной индустрии.</h4>
+		</div>
+		<div class="row">
+			<div class="col-md-6 to-animate blog fadeIn animated">
+				<div class="blog-grid" style="background-image: url(img/blog/full_image_5.jpg);">
+					<div class="date">
+						<span>14</span>
+						<small>Янв</small>
+					</div>
+				</div>
+				<a href="#blogModal2" class="desc" data-toggle="modal">
+					<div class="desc-grid">
+						<h3>Название первой новости или статьи "ЭКСПОФЕСТ ВЫСТАВКИ №1"</h3>
+					</div>
+					<div class="reading btn btn-custom btn-lg">
+						<i class="fa fa-angle-right"></i>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 to-animate blog fadeIn animated">
+				<div class="blog-grid" style="background-image: url(img/blog/full_image_4.jpg);">
+					<div class="date">
+						<span>09</span>
+						<small>Янв</small>
+					</div>
+				</div>
+				<a href="#blogModal1" class="desc" data-toggle="modal">
+					<div class="desc-grid">
+						<h3>Название второй новости или статьи "ЭКСПОФЕСТ ВЫСТАВКИ №1 ВО ВСЕМ МИРЕ"</h3>
+					</div>
+					<div class="reading btn btn-custom btn-lg">
+						<i class="fa fa-angle-right"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Blog Modals -->
+	<!-- Blog Modal 1 -->
+	<div class="blog-modal modal fade" id="blogModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>Project Name</h2>
+								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+								<img class="img-responsive img-centered" src="https://www.free-css.com/assets/files/free-css-templates/preview/page235/agency/assets/img/portfolio/roundicons-free.jpg" alt="">
+								<p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+								<p><strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of RoundIcons.com, or you can purchase the 1500 icon set here.</p>
+								<ul class="list-inline">
+									<li>Дата: 09 Января 2019</li>
+									<li>Клиент: Round Icons</li>
+									<li>Категория: Graphic Design</li>
+								</ul>
+								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть материал</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Blog Modal 2 -->
+	<div class="blog-modal modal fade" id="blogModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<h2>Project Heading</h2>
+								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+								<img class="img-responsive img-centered" src="https://www.free-css.com/assets/files/free-css-templates/preview/page235/agency/assets/img/portfolio/roundicons-free.jpg" alt="">
+								<p>Startup Framework is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+								<p>You can preview Startup Framework here.</p>
+								<ul class="list-inline">
+									<li>Дата: 14 Января 2019</li>
+									<li>Клиент: Round Icons</li>
+									<li>Категория: Graphic Design</li>
+								</ul>
+								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть материал</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- Contact Section -->
 <div id="contact">
@@ -451,10 +558,11 @@
 </div>
 <!-- Footer Section -->
 <div id="footer">
-  <div class="container text-center">
-    <p>&copy; 2019 ООО «ЭКСПОФЕСТ» by <a href="https://vk.com/gefcho" target="_blank" rel="nofollow">Denis Dryk</a>. Все права защищены.</p>
-  </div>
+	<div class="container text-center">
+		<p>&copy; 2019 ООО «ЭКСПОФЕСТ» by <a href="https://vk.com/gefcho" target="_blank" rel="nofollow">Denis Dryk</a>. Все права защищены.</p>
+	</div>
 </div>
+
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 

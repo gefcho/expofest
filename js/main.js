@@ -34,9 +34,9 @@ function main() {
 		// Enable dropdown:hover when width is > 991px
 		if (window.innerWidth > 991) {
 			$('ul.navbar-nav li.dropdown').hover(function() {
-				$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(400);
+				$(this).find('.dropdown-menu').stop(true, true).delay(100).slideDown(400);
 			}, function() {
-				$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(400);
+				$(this).find('.dropdown-menu').stop(true, true).delay(200).slideUp(400);
 			});
 		}
 

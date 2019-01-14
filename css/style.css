@@ -6,9 +6,8 @@ h5 {text-transform: uppercase; font-weight: 700; line-height: 20px;}
 p {font-size: 15px;}
 p.intro {margin: 12px 0 0; line-height: 24px;}
 a {color: #1f386e; font-weight: 400;}
-a:hover, a:focus {text-decoration: none; color: #e52f3c;}
-ul, ol {list-style: none;}
-ul, ol {padding: 0; webkit-padding: 0; moz-padding: 0;}
+a:hover, a:focus {text-decoration: none; color: #e52f3c;transition: all 0.3s;}
+ul, ol {list-style: none; padding: 0;}
 hr {height: 2px; width: 70px; text-align: center; position: relative; background: #1E7A46; margin-bottom: 20px; border: 0;}
 /* Navigation */
 #menu {padding: 10px; transition: all 0.8s;}
@@ -65,11 +64,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #about p {line-height: 24px; margin: 30px 0;}
 /* Services Section */
 #services {padding: 100px 0;}
-#services .service-media {margin: 10px;}
+#services .service-media {margin: 10px; text-align: center;}
 #services .service-media img {position: relative; display: block; width: 100%; height: auto;}
 #services .service-media .fa {font-size: 100px; color: #1f386e;}
 #services .service-desc {margin: 10px 10px 20px; text-align: center;}
-#services h3 {font-weight: 700; padding: 5px 0;}
+#services h3 {font-weight: 700; padding: 5px 0; min-height: 82px;}
 #services .service-desc hr {margin-left: 0;}
 /* Portfolio Section */
 #portfolio {padding: 100px 0;}
@@ -102,7 +101,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #gallery .gallery-img {display: none;}
 #gallery .hover-bg .hover-text {position: absolute; text-align: center; margin: 0 auto; color: #1f386e; background: rgba(246, 246, 246, 0.8); padding: 30% 0 0 0; height: 100%; width: 100%; opacity: 0; transition: all 0.5s;}
 #gallery .hover-bg .hover-text>h4 {opacity: 0; color: #1f386e; -webkit-transform: translateY(100%); transform: translateY(100%); transition: all 0.3s; padding: 0 10px; font-size: 22px; font-weight: 800; text-transform: uppercase;}
-#gallery .hover-bg:hover .hover-text>h4 {opacity: 1; -webkit-backface-visibility: hidden; -webkit-transform: translateY(0); transform: translateY(0);}
+#gallery .hover-bg:hover .hover-text>h4 {opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
 #gallery .hover-bg:hover .hover-text {opacity: 1;}
 /* Testimonial Section */
 #testimonial {padding: 100px 0 60px 0;}
@@ -116,7 +115,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #testimonial .test_authour img {margin: 0px auto;}
 /* Partner Section */
 #partner {padding: 100px 0 60px 0;}
-#partner .partner-logo {margin-bottom: 30px; float: left; width: 100%; vertical-align: middle; display: -moz-inline-stack; display: inline-block; zoom: 1;}
+#partner .partner-logo {margin-bottom: 30px; width: 100%; vertical-align: middle; display: -moz-inline-stack; display: inline-block; zoom: 1;}
 /* Blog Section */
 #blog {padding: 100px 0 60px 0; background: #f6f6f6;}
 #blog .blog {margin-bottom: 40px;}
@@ -198,6 +197,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	#header .intro h1 {font-size: 36px;}
 	#blog .blog-grid {height: 250px;}
 }
+@media (min-width: 768px) {
+	.vertical-align {display: flex; align-items: center;}
+}
 @media (max-width: 480px) {
 	#about, #services, #portfolio, #gallery, #testimonial, #partner, #blog, #contact {padding: 50px 0;}
 	#blog .blog-grid {height: 200px;}
@@ -205,7 +207,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	#portfolio .thumbnail .mask {top: 0; opacity: 0.7;}
 	#portfolio .thumbnail .more {top: 20%!important; color: #1f386e!important; margin-top: 0!important;}
 	#gallery .hover-bg .hover-text {opacity: 1; padding: 15% 0 0 0;}
-	#gallery .hover-bg .hover-text>h4 {opacity: 1; -webkit-backface-visibility: hidden; -webkit-transform: translateY(0); transform: translateY(0);}
+	#gallery .hover-bg .hover-text>h4 {opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
 	#blog .blog-modal .close-modal {width: 35px; height: 35px; right: 35px;}
 	#blog .blog-modal .close-modal .lr, #blog .blog-modal .close-modal .lr .rl {height: 35px;}
 	#blog .blog-modal .modal-content {padding: 50px 0;}

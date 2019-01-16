@@ -110,9 +110,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #testimonial .main_testimonial {position: relative; z-index: 1;}
 #testimonial .main_testimonial .testimonial_item h6 {font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 400; margin-bottom: 10px;}
 #testimonial .main_testimonial .testimonial_item p {font-size: 14px; width: 80%; margin: 20px auto;}
-#testimonial .main_testimonial .carousel-control {width: 45px; height: 45px; line-height: 42px; text-align: center; color: #999; cursor: pointer; position: relative; background-image: none; display: inline-block; font-size: 14px;}
+#testimonial .main_testimonial .carousel-control {width: 90px; height: 90px; line-height: 42px; text-align: center; color: #999; cursor: pointer; position: relative; background-image: none; display: inline-block; font-size: 28px;}
 #testimonial .main_testimonial .carousel-control.left, #testimonial .main_testimonial .carousel-control.right {box-shadow: 0px 0px 0px; opacity: 1;}
-#testimonial .main_testimonial .slash {font-size: 2rem; color: #ddd; height: 45px; bottom: -5px; display: inline-block; position: relative;}
+#testimonial .main_testimonial .slash {font-size: 28px; color: #ddd; height: 90px; bottom: -2px; display: inline-block; position: relative;}
 #testimonial .test_authour img {margin: 0px auto;}
 /* Partner Section */
 #partner {padding: 100px 0 60px 0;}

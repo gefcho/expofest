@@ -43,8 +43,19 @@ function main() {
 		// Nivo Lightbox 
 		$('.gallery-item a').nivoLightbox({
 			effect: 'slideDown',
-			keyboardNav: true,
+			keyboardNav: true
 		});
+
+		// Testimonial Carousel
+		$('.testimonial .carousel').carousel({
+			interval: 10000
+		});
+		// Testomonial Swipe
+		if (window.innerWidth <= 768) {
+			$('.testimonial .carousel').bcSwipe({
+				threshold: 50
+			});
+		}
 
 	}());
 

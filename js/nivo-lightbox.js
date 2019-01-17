@@ -22,7 +22,7 @@
             afterHideLightbox: function(){},
             onPrev: function(element){},
             onNext: function(element){},
-            errorMessage: 'The requested content cannot be loaded. Please try again later.'
+            errorMessage: 'Запрашиваемый контент не может быть загружен. Пожалуйста, попробуйте позже.'
         };
 
     function NivoLightbox(element, options){

@@ -49,7 +49,7 @@ function main() {
 		// Testimonial Carousel
 		if (window.innerWidth > 768) {
 			$('.testimonial .carousel').carousel({
-				interval: 2000
+				interval: 10000
 			});
 		} else {
 			$('.testimonial .carousel').carousel({
@@ -60,6 +60,9 @@ function main() {
 				threshold: 50
 			});
 		}
+
+		// Add gallery images to index.html
+		$(".gallery-img").load("img/gallery/gallery.html");
 
 	}());
 

@@ -47,11 +47,15 @@ function main() {
 		});
 
 		// Testimonial Carousel
-		$('.testimonial .carousel').carousel({
-			interval: 10000
-		});
-		// Testomonial Swipe
-		if (window.innerWidth <= 768) {
+		if (window.innerWidth > 768) {
+			$('.testimonial .carousel').carousel({
+				interval: 2000
+			});
+		} else {
+			$('.testimonial .carousel').carousel({
+				interval: false
+			});
+			// Testomonial Swipe
 			$('.testimonial .carousel').bcSwipe({
 				threshold: 50
 			});

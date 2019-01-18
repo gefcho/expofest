@@ -185,36 +185,36 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 @-webkit-keyframes imageAnimation { 
 	0% {opacity: 0; -webkit-animation-timing-function: ease-in;}
 	8% {opacity: 1; -webkit-transform: scale(1.05); -webkit-animation-timing-function: ease-out;}
-	17% {opacity: 1; -webkit-transform: scale(1.1) rotate(3deg);}
-	25% {opacity: 0; -webkit-transform: scale(1.1) rotate(3deg);}
+	17% {opacity: 1; -webkit-transform: scale(1.1); -webkit-animation-timing-function: ease-out;}
+	25% {opacity: 0; -webkit-transform: scale(1.1); -webkit-animation-timing-function: ease-out;}
 	100% {opacity: 0;}
 }
 @-moz-keyframes imageAnimation { 
 	0% {opacity: 0; -moz-animation-timing-function: ease-in;}
 	8% {opacity: 1; -moz-transform: scale(1.05); -moz-animation-timing-function: ease-out;}
-	17% {opacity: 1; -moz-transform: scale(1.1) rotate(3deg);}
-	25% {opacity: 0; -moz-transform: scale(1.1) rotate(3deg);}
+	17% {opacity: 1; -moz-transform: scale(1.1); -moz-animation-timing-function: ease-out;}
+	25% {opacity: 0; -moz-transform: scale(1.1); -moz-animation-timing-function: ease-out;}
 	100% {opacity: 0;}
 }
 @-o-keyframes imageAnimation { 
 	0% {opacity: 0; -o-animation-timing-function: ease-in;}
 	8% {opacity: 1; -o-transform: scale(1.05); -o-animation-timing-function: ease-out;}
-	17% {opacity: 1; -o-transform: scale(1.1) rotate(3deg);}
-	25% {opacity: 0; -o-transform: scale(1.1) rotate(3deg);}
+	17% {opacity: 1; -o-transform: scale(1.1); -o-animation-timing-function: ease-out;}
+	25% {opacity: 0; -o-transform: scale(1.1); -o-animation-timing-function: ease-out;}
 	100% {opacity: 0;}
 }
 @-ms-keyframes imageAnimation { 
 	0% {opacity: 0; -ms-animation-timing-function: ease-in;}
 	8% {opacity: 1; -ms-transform: scale(1.05); -ms-animation-timing-function: ease-out;}
-	17% {opacity: 1; -ms-transform: scale(1.1) rotate(3deg);}
-	25% {opacity: 0; -ms-transform: scale(1.1) rotate(3deg);}
+	17% {opacity: 1; -ms-transform: scale(1.1); -ms-animation-timing-function: ease-out;}
+	25% {opacity: 0; -ms-transform: scale(1.1); -ms-animation-timing-function: ease-out;}
 	100% {opacity: 0;}
 }
 @keyframes imageAnimation { 
 	0% {opacity: 0; animation-timing-function: ease-in;}
 	8% {opacity: 1; transform: scale(1.05); animation-timing-function: ease-out;}
-	17% {opacity: 1; transform: scale(1.1) rotate(3deg);}
-	25% {opacity: 0; transform: scale(1.1) rotate(3deg);}
+	17% {opacity: 1; transform: scale(1.1); animation-timing-function: ease-out;}
+	25% {opacity: 0; transform: scale(1.1); animation-timing-function: ease-out;}
 	100% {opacity: 0;}
 }
 /* Responsive */

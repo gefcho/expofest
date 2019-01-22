@@ -16,7 +16,6 @@ function main() {
 			}
 		});
 
-
 		$('body').scrollspy({
 			target: '.navbar-default',
 			offset: 80

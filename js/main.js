@@ -48,15 +48,15 @@ function main() {
 
 		// Testimonial Carousel
 		if (window.innerWidth > 768) {
-			$('.testimonial .carousel').carousel({
+			$('#testimonial .carousel').carousel({
 				interval: 10000
 			});
 		} else {
-			$('.testimonial .carousel').carousel({
+			$('#testimonial .carousel').carousel({
 				interval: false
 			});
 			// Testomonial Swipe
-			$('.testimonial .carousel').bcSwipe({
+			$('#testimonial .carousel').bcSwipe({
 				threshold: 50
 			});
 		}

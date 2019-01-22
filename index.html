@@ -35,7 +35,7 @@
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Header -->
-<header id="header">
+<header>
 	<!-- Navigation -->
 	<nav id="menu" class="navbar navbar-default navbar-fixed-top">
 		<div class="container"> 
@@ -65,7 +65,11 @@
 			</div>
 		</div>
 	</nav>
-	<div class="intro">
+</header>
+<!-- Main -->
+<main>
+	<!--Introduction Section-->
+	<section id="intro">
 		<ul class="cb-slideshow">
 			<li><span>Image 01</span></li>
 			<li><span>Image 02</span></li>
@@ -83,10 +87,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</header>
-<!-- Main -->
-<main>
+	</section>
 	<!-- About Section -->
 	<section id="about">
 		<div class="container">
@@ -177,14 +178,14 @@
 		</div>
 	</section>
 	<!-- Portfolio Section -->
-	<section class="section secondary-section" id="portfolio">
+	<section id="portfolio">
 		<div class="container">
 			<div class="section-title">
 				<h2>Наши проекты</h2>
 			</div>
 			<!-- Start details for portfolio project 1 -->
 			<div id="single-project">
-				<div id="slidingDiv" class="toggleDiv row-fluid single-project">
+				<div id="slidingDiv" class="toggleDiv single-project">
 					<div class="row">
 						<div class="col-md-6">
 							<img src="img/portfolio/AE.jpg" alt="project 1" />
@@ -210,7 +211,7 @@
 				</div>
 				<!-- End details for portfolio project 1 -->
 				<!-- Start details for portfolio project 2 -->
-				<div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+				<div id="slidingDiv1" class="toggleDiv single-project">
 					<div class="row">
 						<div class="col-md-6">
 							<img src="img/portfolio/GE.jpg" alt="project 2">
@@ -235,23 +236,27 @@
 					</div>
 				</div>
 				<!-- End details for portfolio project 2 -->
-				<ul id="portfolio-grid" class="thumbnails row">
+				<ul id="portfolio-grid" class="row">
 					<li class="col-md-6">
 						<div class="thumbnail">
-							<img src="img/portfolio/AE.jpg" alt="project 1">
-							<a href="#single-project" class="more show_hide" rel="#slidingDiv">Подробнее</a>
-							<h3>Экшн Экспо</h3>
-							<p>Выставка интерактив: все для туризма, активного отдыха и экстремального спорта.</p>
-							<div class="mask"></div>
+							<a href="#single-project" class="show_hide" rel="#slidingDiv">
+								<img src="img/portfolio/AE.jpg" alt="project 1">
+								<p class="more">Подробнее</p>
+								<h3>Экшн Экспо</h3>
+								<p>Выставка интерактив: все для туризма, активного отдыха и экстремального спорта.</p>
+								<div class="mask"></div>
+							</a>
 						</div>
 					</li>
 					<li class="col-md-6">
 						<div class="thumbnail">
-							<img src="img/portfolio/GE.jpg" alt="project 2">
-							<a href="#single-project" class="show_hide more" rel="#slidingDiv1">Подробнее</a>
-							<h3>Юникон & Гейм Экспо Минск</h3>
-							<p>VII фестиваль поклонников фантастики во всех ее проявлениях.<br>II выставка игровой индустрии (настольные и компьютерные игры).</p>
-							<div class="mask"></div>
+							<a href="#single-project" class="show_hide" rel="#slidingDiv1">
+								<img src="img/portfolio/GE.jpg" alt="project 2">
+								<p class="more">Подробнее</p>
+								<h3>Юникон & Гейм Экспо Минск</h3>
+								<p>VII фестиваль поклонников фантастики во всех ее проявлениях.<br>II выставка игровой индустрии (настольные и компьютерные игры).</p>
+								<div class="mask"></div>
+							</a>
 						</div>
 					</li>
 				</ul>
@@ -296,7 +301,7 @@
 		</div>
 	</section>
 	<!-- Testimonial Section -->
-	<section id="testimonial" class="testimonial fix roomy-100">
+	<section id="testimonial" class="testimonial">
 		<div class="container">
 			<div class="section-title">
 				<h2>Отзывы</h2>
@@ -402,7 +407,7 @@
 				<h2>Наш блог</h2>
 				<h4>Интересные статьи, а также новости в выстовочной индустрии.</h4>
 			</div>
-			<div class="row">
+			<div class="row d-flex">
 				<div class="col-md-6 col-sm-6 blog">
 					<a href="#blogModal2" class="desc" data-toggle="modal">
 						<div class="blog-grid" style="background-image: url(img/blog/full_image_5.jpg);">
@@ -550,7 +555,7 @@
 </main>
 <!-- Footer -->
 <footer id="footer">
-	<div class="container text-center">
+	<div class="container">
 		<p>&copy; 2019 ООО «ЭКСПОФЕСТ».<br>Разработано – <a href="https://www.linkedin.com/in/denis-dryk/" target="_blank" rel="nofollow">Denis Dryk</a>.</p>
 	</div>
 </footer>

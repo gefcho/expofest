@@ -113,9 +113,21 @@ function init() {
             (body.offsetHeight <= windowHeight || 
              html.offsetHeight <= windowHeight)) {
 
+        // DOMChange (throttle): fix height
+        var pending = false;
+        var refresh = function () {
+            if (!pending && html.scrollHeight != document.height) {
+                pending = true; // add a new pending action
+                setTimeout(function () {
+                    html.style.height = document.height + 'px';
+                    pending = false;
+                }, 500); // act rarely to stay fast
+            }
+        };
+
         html.style.height = 'auto';
         setTimeout(refresh, 10);
-
+        
         // clearfix
         if (root.offsetHeight <= windowHeight) {
             var underlay = document.createElement("div"); 	

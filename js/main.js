@@ -58,9 +58,6 @@ function main() {
 			$('#testimonial .carousel').bcSwipe({
 				threshold: 50
 			});
-			$('.nivo-lightbox-image').bcSwipe({
-				threshold: 50
-			});
 		}
 
 		// Add gallery images to index.html
